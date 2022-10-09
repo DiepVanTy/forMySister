@@ -1,0 +1,46 @@
+:root {
+  font-size: calc(1vw + 0.7em);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+.left {
+  flex: 2;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+.fa-quote-left  {
+  font-size: 2rem;
+}
+.right {
+  flex: 3;
+  overflow: hidden;
+}
+img {
+  height: 100%;
+}
+.fa-quote-left, .gradient-text {
+  background: linear-gradient(90deg,#4ca5ff 2.34%,#b673f8 100.78%);
+  -webkit-text-fill-color: transparent;
+  /* color: transparent; */
+  -webkit-background-clip: text;
+}
+.large-text {
+  font-size: 1.5em;
+}
